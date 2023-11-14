@@ -1,0 +1,11 @@
+compiler: rillv1
+
+title: "New York City Taxi and Limousine Trends"
+
+# These are example mock users to test your security policies.
+# For more information, see the documentation: https://docs.rilldata.com/develop/security
+
+mock_users:
+- email: john@yourcompany.com
+- email: jane@partnercompany.com
+
