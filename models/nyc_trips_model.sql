@@ -1,4 +1,3 @@
--- @materialize: true
 SELECT 
        trip.request_datetime,
        trip.trip_miles,
