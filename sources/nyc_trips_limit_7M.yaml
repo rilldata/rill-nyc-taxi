@@ -1,0 +1,4 @@
+# Visit https://docs.rilldata.com/reference/project-files/sources to learn more about Rill source files.
+
+type: "duckdb"
+sql: "SELECT request_datetime, trip_miles, trip_time, driver_pay, tips, PULocationID, DOLocationID FROM read_parquet('s3://nyc-tlc/trip data/fhvhv_tripdata_2023-05.parquet') LIMIT 7000000"

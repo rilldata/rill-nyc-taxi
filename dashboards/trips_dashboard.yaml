@@ -1,7 +1,7 @@
 # Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
 
 title: nyc_trips_dashboard
-model: nyc_trips_model
+model: nyc_trips_model2
 timeseries: request_datetime
 measures:
   - label: Total Trips
