@@ -3,6 +3,7 @@
 title: nyc_trips_dashboard
 model: nyc_trips_model2
 timeseries: request_datetime
+default_time_range: P14D
 measures:
   - label: Total Trips
     expression: count(*)
