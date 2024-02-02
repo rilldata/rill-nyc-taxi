@@ -1,4 +1,4 @@
 # Visit https://docs.rilldata.com/reference/project-files/sources to learn more about Rill source files.
 
-type: "duckdb"
-sql: SELECT * FROM read_csv('s3://nyc-tlc/misc/taxi _zone_lookup.csv', auto_detect=true, ignore_errors=1, header=true)
+type: "s3"
+uri: "s3://nyc-tlc/misc/taxi%20_zone_lookup.csv"
